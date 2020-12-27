@@ -1,7 +1,21 @@
 <footer>
-    <ul>
-        <li><a href="mailto:simao.ferreira@tuta.io">email</a></li>
-        <li><a href="https://github.com/simao-ferreira">github</a></li>
-        <li><a href="https://linkedin.com/in/ferreirasimao">linkedin</a></li>
-    </ul>
+    <div class="container footer-container">
+        <ul>
+            <li>
+                <a target="_blank" href="https://github.com/{{ site.name | escape }}" class="button">
+                    <i class="fab fa-github" title="Github link"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/{{ site.name | escape }}" class="button">
+                    <i class="fab fa-linkedin" title="Linkedin link"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="mailto:{{ site.email | escape }}" class="button">
+                    <i class="fab fa-telegram" title="Email link"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
 </footer>

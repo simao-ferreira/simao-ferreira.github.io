@@ -1,59 +1,105 @@
-// Body
-
-* {
-    box-sizing: border-box;
-  }
-  
-body {
-      margin: 10%;
-      text-align: center;
-      width: 70%;
-      color: var(--colorbg);
-      background-color: var(--color0);
-
+html {
+    font-size: 100%;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    list-style: none;
+body {
+    text-align: center;
+    margin: 10%;
+    
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $text-color;
+    font-weight: normal;
+    background-attachment: fixed !important;
+    background: $background-color;
+    background: linear-gradient($background-color, $color-dark);
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    color: $color-dark;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+h2 li, ul li{
+    font-family: $font-family;
+    font-size: $h1-font-size;
+    font-weight: bold;
     display: inline;
-    margin-right: 20px;
+    margin-right: 5%;
 }
+
+p {
+    font-size: $font-size;
+    color: $text-color;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color:$text-color;
+    font-family: $font-family;
+    font-weight: normal;
+}
+
 a {
     text-decoration: none;
-    color: var(--color8);
+    color: $color-link;
+    font-weight:400;
+
+    &:visited {
+        text-decoration: none;
+        color: $color-visited-link;
+    }
+    
+    &:hover {
+        text-decoration: none;
+        color: $color-hover-link;
+    }
 }
 
-a:hover {
-    text-decoration: underline;
-    color: var(--color2);
+section img {
+    max-width: 100%;
 }
 
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: var(--color4);
+blockquote {
+    border-left:3px solid $color-highlight;
+    margin:0;
+    font-style:italic;
 }
 
-footer {
-    border-top: 2px solid var(--color4);
-    font-size: .8em;
+code {
+    font-family: $code-font-family;
+    color: $text-color;
+    font-size: $font-size;
 }
 
-
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+pre {
+    padding:2%;
+    background: $color-dark;
+    border-radius: 2px;
+    border:1px solid $color-grey;
+    
+    code {
+      color: $text-color;
+      margin: 0;
+      padding: 0;
+    }
 }
 
-ul.posts li {
-    list-style: none;
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+
+th {
+    text-align:left;
+    padding:5px 10px;
+    border-bottom:1px solid $color-grey;
+    color: $color-highlight;
+    font-family: $font-family;
+    font-weight: normal;
 }
