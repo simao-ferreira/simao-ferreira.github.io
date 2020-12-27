@@ -53,7 +53,17 @@ Sites used during the creation of this repo
 * [Github pages](https://pages.github.com/)
 * [Jekyll quickstart](https://jekyllrb.com/docs/)
 * [Beautiful Jekyll](https://raw.githubusercontent.com/daattali/beautiful-jekyll/)
+* [Creating and hosting personal site](http://jmcglone.com/guides/github-pages/)
+* [Nord](https://github.com/arcticicestudio/nord)
+* [Jekyll structure](https://jekyllrb.com/docs/structure/)
 
-Interesting examples to take a look:
+Interesting pages to take a look:
 
 * [Academicpages template](https://academicpages.github.io/)
+* [Pages gems](https://github.com/github/pages-gem)
+* [Minima template](https://github.com/jekyll/minima)
+* [Carte template](https://github.com/Wiredcraft/carte)
+* [Midnight template](https://github.com/pages-themes/midnight)
+* [Hacker template](https://github.com/pages-themes/hacker)
+* [Minimal resume template](https://github.com/murraco/jekyll-theme-minimal-resume)
+* [Dark poole template](https://github.com/andrewhwanpark/dark-poole)
