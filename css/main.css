@@ -1,0 +1,54 @@
+@import "nord.css";
+
+body {
+    margin: 10%;
+    width: 70%;
+    background-color: var(--color0);
+    color: var(--colorbg);
+    text-align: center;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: var(--color8);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--color2);
+}
+
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: var(--color4);
+}
+
+footer {
+    border-top: 2px solid var(--color4);
+    font-size: .8em;
+}
+
+
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
