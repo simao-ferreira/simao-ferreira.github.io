@@ -1,11 +1,16 @@
-@import "nord.css";
+// Body
 
+* {
+    box-sizing: border-box;
+  }
+  
 body {
-    margin: 10%;
-    width: 70%;
-    background-color: var(--color0);
-    color: var(--colorbg);
-    text-align: center;
+      margin: 10%;
+      text-align: center;
+      width: 70%;
+      color: var(--colorbg);
+      background-color: var(--color0);
+
 }
 
 nav ul, footer ul {
