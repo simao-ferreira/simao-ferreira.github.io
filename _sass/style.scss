@@ -1,28 +1,16 @@
-//  _______ __          __        
-//  |     __|  |_.--.--.|  |.-----.
-//  |__     |   _|  |  ||  ||  -__|
-//  |_______|____|___  ||__||_____|
-//               |_____|           
+// _____   __            _____________
+// ___  | / /__________________  /__(_)______
+// __   |/ /_  __ \_  ___/  __  /__  /_  ___/
+// _  /|  / / /_/ /  /   / /_/ / _  / / /__
+// /_/ |_/  \____//_/    \__,_/  /_/  \___/
 
-
-// Variables
-$font-size: 16px !default;
-$h1-font-size: 22px;
-$font-family: "Iosevka Term", Roboto, Helvetica, Arial, sans-serif !default;
-$code-font-family: "Menlo", "Inconsolata", monospace;
-// Color variables
-$background-color: var(--colorbg);
-$text-color: var(--colorfg);
-$color-dark: var(--color0);
-$color-highlight: var(--color3);
-$color-vivid: var(--color4);
-$color-link: var(--color4);
-$color-hover-link: var(--color2);
-$color-visited-link: var(--color5);
-$color-grey: var(--color8);
-//Imports
-@import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
-@import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
-@import "nord";
-@import "base";
-@import "rouge-base16-dark";
+@import 
+    url(https://use.fontawesome.com/releases/v5.11.2/css/all.css),
+    url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css),
+    "normalize",
+    "rouge-base16-dark",
+    "variables",
+    "nord",
+    "base",
+    "header",
+    "footer";

@@ -1,6 +1,6 @@
-# Personal website
+# Nordic - Personal website
 
-A Github Page website for personal learning and exploring.
+A Github Page website for personal learning and exploring, color and feel based of nord palette.
 
 ## Table of contents
 
@@ -67,3 +67,4 @@ Interesting pages to take a look:
 * [Hacker template](https://github.com/pages-themes/hacker)
 * [Minimal resume template](https://github.com/murraco/jekyll-theme-minimal-resume)
 * [Dark poole template](https://github.com/andrewhwanpark/dark-poole)
+* [Modern resume](https://github.com/sproogen/modern-resume-theme)
