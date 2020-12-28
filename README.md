@@ -6,9 +6,6 @@ A Github Page website for personal learning and exploring, color and feel based 
 
 * [Introduction](#introduction)
 * [Features](#features)
-* [How-to](#how-to)
-    * [How to install](#how-to-install)
-    * [How to use](#how-to-use)
 * [Technologies](#technologies)
 * [Examples](#examples)
 * [Acknowledgments](#acknowledgments)
@@ -24,16 +21,11 @@ The objective is the creation of an online-hub to cross reference media profiles
 
 Possible features:
 
-* Reddit
-* Linkedin
-* Github
-* Some blogs to train documentation creation
-
-## How to
-
-### How to install
-
-### How to use
+* Media homepage
+* Linkedin link
+* Github link
+* Some blog posts to train documentation creation
+* Virtual cv
 
 ## Technologies
 
@@ -45,6 +37,7 @@ Tech   | Description
 [Ruby](https://www.ruby-lang.org/en/) | Programming language
 [Jekyll](https://jekyllrb.com/) | Static site generator
 [Markdown](https://www.markdownguide.org/) | Syntax language to format text and webpages
+[Font Awesome](https://fontawesome.com/v4.7.0/) | Font used for icons
 
 ## Acknowledgments
 
