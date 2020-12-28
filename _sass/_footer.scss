@@ -1,0 +1,22 @@
+.footer {
+    background: $color-bg;
+    color: $color-text;
+    text-align: center;
+    .love {
+        color: $color-red;
+    }
+    position:absolute;
+    bottom:0;
+    width:100%;
+
+    ul.icons li {
+        margin-right: 2%;
+        margin-left: 2%;
+        display: inline;
+    }
+
+    .icons i {
+        font-size: 30px;
+        line-height:60px;
+    }
+}

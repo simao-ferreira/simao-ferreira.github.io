@@ -1,0 +1,21 @@
+// Variables
+$font-size: 16px !default;
+$header-font-size: 22px;
+$font-family: "Iosevka Term", Roboto, Arial, sans-serif !default;
+$code-font-family: "Menlo", "Inconsolata", monospace;
+$header-font-family: "Helvetica", "Roboto", "Arial", sans-serif;
+// Color variables
+$color-bg: var(--colorbg);
+$color-text: var(--colorfg);
+$color-dark: var(--color0);
+$color-red: var(--color1);
+$color-green: var(--color2);
+$color-yellow: var(--color3);
+$color-blue: var(--color4);
+$color-pink: var(--color5);
+$color-grey: var(--color8);
+$color-vivid: $color-blue;
+$color-hover-link: $color-grey;
+$color-link: $color-blue;
+$color-visited-link: $color-pink;
+$color-highlight: $color-yellow;

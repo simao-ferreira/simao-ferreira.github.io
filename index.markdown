@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Home
 ---
+
+<h2>{{ site.title }}</h2>
+
+Hello web, I am a software developer, linux user and avid reader (: <a href="/about">Read more...</a>
