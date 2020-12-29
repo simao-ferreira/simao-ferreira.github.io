@@ -5,9 +5,10 @@
     .love {
         color: $color-red;
     }
-    position:absolute;
+    position: fixed;
     bottom:0;
     width:100%;
+    height: 135px;
 
     ul.icons li {
         margin-right: 2%;
