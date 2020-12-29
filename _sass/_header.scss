@@ -2,10 +2,6 @@
     position:absolute;
     top:0;
     width:100%;
-    display: inline;
-
-    font-family: $header-font-family;
-    font-size: $header-font-size;
 
     ul.icons li {
         float: right;
@@ -24,8 +20,22 @@
     float: left;
     display: inline;
     
+    font-family: $header-font-family;
+    font-size: $header-font-size;
     font-weight: bold;
     float: left;
     margin-left: 3%;
     margin-right: 3%;
+
+    a {
+        &:visited {
+            text-decoration: none;
+            color: $color-blue;
+        }
+        
+        &:hover {
+            text-decoration: none;
+            color: $color-blue;
+        }
+    }
 }

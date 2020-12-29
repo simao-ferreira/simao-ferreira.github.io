@@ -61,3 +61,11 @@ Interesting pages to take a look:
 * [Minimal resume template](https://github.com/murraco/jekyll-theme-minimal-resume)
 * [Dark poole template](https://github.com/andrewhwanpark/dark-poole)
 * [Modern resume](https://github.com/sproogen/modern-resume-theme)
+* [Brandonb](https://github.com/brandonb927/brandonb.ca)
+* [Jekyll Pages Directory](https://github.com/bbakersmith/jekyll-pages-directory)
+
+## Todo
+* Multiple pages management
+* Cv structure page
+* Personal data?
+* Media homepage
